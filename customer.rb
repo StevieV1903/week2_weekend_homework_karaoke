@@ -19,7 +19,9 @@ def pay_for_room(room)
     return cash >= room.cost_of_room()
   end
 
-
+  def insufficient_funds?(room)
+    return cash < room.cost_of_room()
+  end
 
 
 end

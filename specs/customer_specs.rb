@@ -45,5 +45,8 @@ class CustomerTest < Minitest::Test
     assert_equal(10.00, @customer1.cash())
   end
 
-  
+  def test_the_customer_cannot_pay_for_room_if_insufficient_funds
+    @customer3.pay_for_room(@room)
+    assert_equal(35.00, @customer3.cash())
+  end
 end
