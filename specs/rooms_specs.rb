@@ -39,6 +39,10 @@ class RoomTest < Minitest::Test
     assert_equal("John", @customer1.name)
   end
 
+  # def test_can_remove_customer_from_room
+  #   assert_equal(0, )
+  # end
+  
   # def test_the_customer_can_book_the_room_if_free
   #   assert_equal(0, @room1.booked_customers)
   # end

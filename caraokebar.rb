@@ -12,8 +12,8 @@ class CaraokeBar
   end
 
   def sell_room(customer, room)
-      customer.pay_for_room(room)
-      @till += room.cost_of_room()
+    customer.pay_for_room(room)
+    @till += room.cost_of_room()
   end
 
 

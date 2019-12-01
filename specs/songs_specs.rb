@@ -14,7 +14,7 @@ class SongTest < Minitest::Test
     @song4 = Song.new("Sweet Caroline", "Neil Diamond")
 
     @song_playlist = [@song1, @song2, @song3, @song4]
-    
+
   end
 
   def test_the_song_has_a_name
